@@ -31,42 +31,43 @@ class Room {
 }
 
 // Now we can create a room like so:
-const room = new Room(10, 10, 7)
-console.table(room)
+// const room = new Room(10, 10, 7)
+// console.table(room)
 
 // And then add some mob to it:
-room.addMob('zombie', 'Jeff', 12, 9, 6)
+// room.addMob('zombie', 'Jeff', 12, 9, 6)
 
 // And some more with addMobs:
-room.addMobs([
-    {
-        type: 'skeleton',
-        name: 'Kyle',
-        healthPoints: 12,
-        damage: 8,
-        difficulty: 6
-    },
-    {
-        type: 'zombie',
-        name: 'Josh',
-        healthPoints: 16,
-        damage: 4,
-        difficulty: 5
-    },
-    {
-        type: 'spider',
-        name: 'Kyle',
-        healthPoints: 13,
-        damage: 18,
-        difficulty: 7
-    },
-    {
-        type: 'skeleton',
-        name: 'Fred',
-        healthPoints: 10,
-        damage: 9,
-        difficulty: 8
-    },
-])
+// room.addMobs([
+//     {
+//         type: 'skeleton',
+//         name: 'Kyle',
+//         healthPoints: 12,
+//         damage: 8,
+//         difficulty: 6
+//     },
+//     {
+//         type: 'zombie',
+//         name: 'Josh',
+//         healthPoints: 16,
+//         damage: 4,
+//         difficulty: 5
+//     },
+//     {
+//         type: 'spider',
+//         name: 'Kyle',
+//         healthPoints: 13,
+//         damage: 18,
+//         difficulty: 7
+//     },
+//     {
+//         type: 'skeleton',
+//         name: 'Fred',
+//         healthPoints: 10,
+//         damage: 9,
+//         difficulty: 8
+//     },
+// ])
 
-console.table(room.mobs)
+// console.table(room.mobs)
+export default Room
